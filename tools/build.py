@@ -15,14 +15,14 @@ for p in [ROOT, ASSETS, ASSETS/'dark', ASSETS/'light', ROOT/'.github'/'workflows
 # -- EDIT HERE: verified or user-provided destinations --
 LINKS = [
     ('GITHUB', 'https://github.com/C17-cyber', 'GH'),
-    ('PORTFOLIO', 'https://imortel.fr', 'WWW'),
+    ('IMORTEL', 'https://imortel.fr', 'WEP'),
     ('PVP4CARRY', 'https://pvp4carry.fr', 'WEB'),
-    ('LINKEDIN', 'https://www.linkedin.com/in/imortel/', 'IN'),
+    ('LINKEDIN', 'https://www.linkedin.com/in/m%E1%B4%80%CA%80%E1%B4%A1%E1%B4%80%C9%B4/', 'IN'),
 ]
 PROJECTS = [
     ('C17CHAT', 'PRIVATE MESSAGING', 'Anonymous communication. E2EE, offline networking and privacy-first research.', 'IN DEVELOPMENT', 'https://github.com/C17-cyber', 'mesh'),
     ('PVP4CARRY', 'WEB PLATFORM', 'Destiny 2 services platform, custom website and Discord integration.', 'WEBSITE LIVE', 'https://pvp4carry.fr', 'web'),
-    ('UBERBOXING', 'MOBILE-FIRST WEB', 'On-demand boxing coaching with booking, scheduling and multilingual UX.', 'IN DEVELOPMENT', '', 'orbit'),
+    ('IMORTEL', 'WEB PLATFORM', 'Modern web experience featuring responsive design, smooth animations and immersive UI. 2024', 'WEBSITE LIVE', 'https://imortel.fr', 'orbit'),
 ]
 CAPABILITIES = [
     ('CRYPTOGRAPHY', 'E2EE, key exchange, digital signatures, HKDF and secure protocol research.', 'crypto'),
@@ -41,8 +41,8 @@ WORK = [
     ('DEV + AUTOMATION', 'Full-stack development', 'React / Vite / Docker / n8n', 'web'),
 ]
 MILESTONES = [
-    ('HACKERVERSE CTF', 'EC-COUNCIL  /  2026', '2,000 / 2,000 points', '#61 worldwide (reported)  |  Grandmaster', 'ctf'),
-    ('BTS SIO · SISR', 'DIPLOMA  /  2026', 'Infrastructure & networks', 'French vocational higher education diploma', 'diploma'),
+    ('HACKERVERSE CTF', 'EC-COUNCIL  /  2026', '2,000 / 2,000 points', '#58 Worldwide     Grandmaster', 'ctf'),
+    ('EHE CERTIFICATION', 'EC-COUNCIL', 'Ethical Hacking Essentials', 'Cybersecurity & ethical hacking fundamentals', 'diploma'),
     ('CRYPTO RESEARCH', 'CURRENT FOCUS', 'Noise · X25519 · ML-KEM', 'Protocols & anonymity systems: study / exploration', 'crypto'),
 ]
 
@@ -271,7 +271,7 @@ for th,c in [('dark',DARK),('light',LIGHT)]:
     w,h=960,175
     b=frame(w,h,c)
     b+=txt(27,44,'GITHUB CONTRIBUTIONS',17,c['text'],800)
-    b+=txt(27,69,'Animated contribution graph activates after the first workflow run.',13,c['muted'])
+    b+=txt(27,69,'C17 Contribution',13,c['muted'])
     r=random.Random(197)
     for i in range(51):
         for j in range(4):
