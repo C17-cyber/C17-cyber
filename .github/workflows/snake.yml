@@ -1,0 +1,25 @@
+name: C17 contributions animation
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 2 * * *"
+permissions:
+  contents: write
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Generate animated contribution snakes
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: C17-cyber
+          outputs: |
+            assets/snake-dark.svg?palette=github-dark&color_snake=%23AD86FF&color_dots=%2312151F,%23291C42,%234D307C,%237453B0,%23B79BFF
+            assets/snake-light.svg?palette=github-light&color_snake=%236F42B8&color_dots=%23F4F2F9,%23D8CAF0,%23BDA6E7,%239770D0,%236F42B8
+      - name: Commit generated animation
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update C17 contribution animations"
+          file_pattern: 'assets/snake-*.svg'
