@@ -17,12 +17,14 @@ LINKS = [
     ('GITHUB', 'https://github.com/C17-cyber', 'GH'),
     ('IMORTEL', 'https://imortel.fr', 'WEP'),
     ('PVP4CARRY', 'https://pvp4carry.fr', 'WEB'),
+    ('CICADA OS', 'https://marwan.la', 'WEB'),
     ('LINKEDIN', 'https://www.linkedin.com/in/m%E1%B4%80%CA%80%E1%B4%A1%E1%B4%80%C9%B4/', 'IN'),
 ]
 PROJECTS = [
     ('C17CHAT', 'PRIVATE MESSAGING', 'Anonymous communication. E2EE, offline networking and privacy-first research.', 'IN DEVELOPMENT', 'https://github.com/C17-cyber', 'mesh'),
-    ('PVP4CARRY', 'WEB PLATFORM', 'Destiny 2 services platform, custom website and Discord integration.', 'WEBSITE LIVE', 'https://pvp4carry.fr', 'web'),
+    ('PVP 4 CARRY', 'WEB PLATFORM', 'Destiny 2 services platform, custom website and Discord integration.', 'WEBSITE LIVE', 'https://pvp4carry.fr', 'web'),
     ('IMORTEL', 'WEB PLATFORM', 'Modern web experience featuring responsive design, smooth animations and immersive UI. 2024', 'WEBSITE LIVE', 'https://imortel.fr', 'orbit'),
+    ('CICADA OS', 'WEB PLATFORM', 'An interactive retrofuturistic OS blending cybersecurity, 3D, and motion design.', 'WEBSITE LIVE', 'https://marwan.la', 'server'),
 ]
 CAPABILITIES = [
     ('CRYPTOGRAPHY', 'E2EE, key exchange, digital signatures, HKDF and secure protocol research.', 'crypto'),
