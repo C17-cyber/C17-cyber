@@ -5,6 +5,7 @@
 <a href="https://github.com/C17-cyber"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/l-github.svg"/><img src="assets/light/l-github.svg" height="35" alt="GITHUB"/></picture></a>
 <a href="https://imortel.fr"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/l-imortel.svg"/><img src="assets/light/l-imortel.svg" height="35" alt="IMORTEL"/></picture></a>
 <a href="https://pvp4carry.fr"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/l-pvp4carry.svg"/><img src="assets/light/l-pvp4carry.svg" height="35" alt="PVP4CARRY"/></picture></a>
+<a href="https://marwan.la"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/l-cicada os.svg"/><img src="assets/light/l-cicada os.svg" height="35" alt="CICADA OS"/></picture></a>
 <a href="https://www.linkedin.com/in/m%E1%B4%80%CA%80%E1%B4%A1%E1%B4%80%C9%B4/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/l-linkedin.svg"/><img src="assets/light/l-linkedin.svg" height="35" alt="LINKEDIN"/></picture></a>
 </div>
 <br/>
@@ -13,8 +14,11 @@
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/s01.svg"/><img src="assets/light/s01.svg" width="100%" alt="Products and projects"/></picture>
 <p align="center">
 <a href="https://github.com/C17-cyber"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/p1.svg"/><img src="assets/light/p1.svg" width="32%" alt="C17CHAT"/></picture></a>
-<a href="https://pvp4carry.fr"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/p2.svg"/><img src="assets/light/p2.svg" width="32%" alt="PVP4CARRY"/></picture></a>
+<a href="https://pvp4carry.fr"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/p2.svg"/><img src="assets/light/p2.svg" width="32%" alt="PVP 4 CARRY"/></picture></a>
 <a href="https://imortel.fr"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/p3.svg"/><img src="assets/light/p3.svg" width="32%" alt="IMORTEL"/></picture></a>
+</p>
+<p align="center">
+<a href="https://marwan.la"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/p4.svg"/><img src="assets/light/p4.svg" width="32%" alt="CICADA OS"/></picture></a>
 </p>
 <br/>
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/s02.svg"/><img src="assets/light/s02.svg" width="100%" alt="Focus areas"/></picture>
